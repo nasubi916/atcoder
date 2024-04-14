@@ -1,11 +1,11 @@
 # ゼロサム問題
 
-playerNum =int(input())
-eachPlayerScore:list[int] = list(map(int, input().split()))
+playerNum = int(input())
+eachPlayerScore: list[int] = list(map(int, input().split()))
 
 totalScore = 0
 
-for i in range(0,playerNum-1,1):
-  totalScore+=eachPlayerScore[i]
+for i in range(0, playerNum - 1, 1):
+    totalScore += eachPlayerScore[i]
 
-print(totalScore* -1)
+print(totalScore * -1)

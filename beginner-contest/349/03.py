@@ -13,10 +13,12 @@ for i in range(0, place.__len__(), 2):
     else:
         createCode.append(place[i])
 
-strCreateCode = str(createCode)
+strCreateCode = "".join(createCode)
 upperCode = strCreateCode.upper()
 
 if upperCode == code:
     print("Yes")
 else:
     print("No")
+
+print(upperCode,code)
