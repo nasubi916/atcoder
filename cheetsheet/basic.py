@@ -1,6 +1,8 @@
 # Description: Pythonの基本的な構文をまとめたファイルです。
 text:str = "Hello, World!"
 
+test =input()
+
 #strをlistに変換
 place:list[str] = list(text)
 
@@ -22,4 +24,3 @@ array:list[int] = [0] * 26
 
 #文字コードを取得
 print(ord("a")) # 97
-
