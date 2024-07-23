@@ -12,23 +12,25 @@ for w in range(1, len(s)):
             print("Yes")
             exit()
 
+    # loop = int(len(aaa[1]))
 
-# loop = int(len(aaa[1]))
+    # textLen = int(len(aaa[0]) / loop)
+    # answer = []
 
-# textLen = int(len(aaa[0]) / loop)
-# answer = []
+    # for i in range(loop):
+    #     # if len(aaa[0]) <= len(aaa[1]):
+    #     #     break
+    #     # if len(aaa[1]) == 1:
+    #     #     if not (len(aaa[0]) < 4):
+    #     #         break
+    #     splitText = aaa[0][i * textLen : (i + 1) * textLen]
+    #     for j in range(len(splitText)):
+    #         print(splitText[j])
+    #         a = "".join(splitText[j])
+    #         print(a)
+    #     # answer.append()
 
-# for i in range(loop):
-#     if len(aaa[0]) <= len(aaa[1]):
-#         break
-#     if len(aaa[1]) == 1:
-#         if not (len(aaa[0]) < 4):
-#             break
-#     splitText = aaa[0][i * textLen : (i + 1) * textLen]
-#     splitLastWord = aaa[0][(i + 1) * textLen - 1]
-#     answer.append(splitLastWord)
-
-# if "".join(answer) == aaa[1]:
-#     print("Yes")
-# else:
-#     print("No")
+    # if "".join(answer) == aaa[1]:
+    #     print("Yes")
+    # else:
+    #     print("No")
